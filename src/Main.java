@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> cislicka = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        boolean aJedemeDal = true;
+        boolean hobit = true;
         float p = 0;
 
-        while (aJedemeDal) {
+        while (hobit) {
             System.out.println("""
                     ////////////////////////
                     1. Pridat cislo
@@ -47,7 +47,7 @@ public class Main {
                         break;
 
                     case 4:
-                        aJedemeDal = false;
+                        hobit = false;
                         break;
 
                     default:
